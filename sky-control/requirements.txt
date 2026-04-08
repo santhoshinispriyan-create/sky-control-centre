@@ -1,0 +1,4 @@
+openenv-core
+transformers
+torch
+openai

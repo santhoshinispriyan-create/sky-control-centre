@@ -1,0 +1,15 @@
+name: ATC-Flight-Management
+version: 1.0.0
+description: Air Traffic Control simulation with emergency handling.
+spec_version: "0.1.0"
+entry_point: env:ATCEnv
+tasks:
+  - id: easy_landing
+    name: Easy Landing
+    grader: tasks:grade_easy
+  - id: busy_queue
+    name: Busy Queue
+    grader: tasks:grade_medium
+  - id: emergency_diversion
+    name: Emergency Diversion
+    grader: tasks:grade_hard

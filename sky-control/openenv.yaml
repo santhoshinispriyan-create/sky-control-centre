@@ -1,0 +1,15 @@
+name: SkyControl
+version: 1.0.0
+tasks:
+  - id: easy_landing
+    name: Easy Landing
+    difficulty: Easy
+    description: Land the flight AI-2026 safely with sufficient fuel.
+  - id: traffic_management
+    name: Traffic Management
+    difficulty: Medium
+    description: Manage multiple steps of waiting and landing under fuel constraints.
+  - id: emergency_rebooking
+    name: Emergency Rebooking
+    difficulty: Hard
+    description: Handle rebooking while ensuring the flight lands safely before fuel runs out.

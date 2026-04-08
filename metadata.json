@@ -1,0 +1,5 @@
+{
+  "name": "ATC & Flight Management Simulator",
+  "description": "A comprehensive Air Traffic Control simulation environment compliant with OpenEnv specifications, featuring emergency handling and multi-task graders.",
+  "requestFramePermissions": []
+}
