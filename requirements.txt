@@ -1,8 +1,7 @@
-google-genai
 pydantic
 openai
 python-dotenv
-torch
 numpy
-openenv-core
 gradio
+fastapi
+uvicorn

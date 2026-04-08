@@ -38,7 +38,7 @@ def run_inference():
     
     total_reward = 0.0
     for step_idx in range(20):
-        prompt = f"Current Observation: {obs.json()}\nWhat is your next action? Respond in JSON format."
+        prompt = f"Current Observation: {obs.model_dump_json()}\nWhat is your next action? Respond in JSON format."
         
         try:
             response = client.chat.completions.create(
@@ -60,7 +60,7 @@ def run_inference():
             # Structured log
             log_entry = {
                 "step": step_idx,
-                "action": action.dict(),
+                "action": action.model_dump(),
                 "reward": reward.value,
                 "reason": reward.reason,
                 "done": done,
